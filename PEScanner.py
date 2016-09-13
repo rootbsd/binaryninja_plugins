@@ -554,6 +554,8 @@ def pestart(bv, addr, lentgh):
     print "End"
 
 
-app = QtGui.QApplication([])
-
+try:
+  app = QtGui.QApplication([])
+except:
+  app = QtGui.QApplication.instance()
 binaryninja.PluginCommand.register_for_range("Get PE information", "Get PE information.", pestart)
