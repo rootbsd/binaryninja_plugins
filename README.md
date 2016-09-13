@@ -40,3 +40,12 @@ Few screenshots:
 ![Capture 6](https://raw.githubusercontent.com/rootbsd/binaryninja_plugins/master/images/Capture6.PNG)
 ![Capture 7](https://raw.githubusercontent.com/rootbsd/binaryninja_plugins/master/images/Capture7.PNG)
 
+
+## MSDN documentation
+This plugin shows the MSDN documentation concerning the selected symbol
+
+Requierements
+  * PySide
+
+Screenshot:
+![Capture 8](https://raw.githubusercontent.com/rootbsd/binaryninja_plugins/master/images/Capture8.PNG)
