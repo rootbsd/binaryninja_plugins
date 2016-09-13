@@ -31,12 +31,11 @@ TODO:
   * do not create a temporary file
 
 Few screenshots:
-![Capture 1](/images/Capture1.png)
-![Capture 2](/images/Capture2.png)
-![Capture 1](/images/Capture1.png)
-![Capture 3](/images/Capture3.png)
-![Capture 4](/images/Capture4.png)
-![Capture 5](/images/Capture5.png)
-![Capture 6](/images/Capture6.png)
-![Capture 7](/images/Capture7.png)
+![Capture 1](https://raw.githubusercontent.com/rootbsd/binaryninja_plugins/master/images/Capture1.PNG)
+![Capture 2](https://raw.githubusercontent.com/rootbsd/binaryninja_plugins/master/images/Capture2.PNG)
+![Capture 3](https://raw.githubusercontent.com/rootbsd/binaryninja_plugins/master/images/Capture3.PNG)
+![Capture 4](https://raw.githubusercontent.com/rootbsd/binaryninja_plugins/master/images/Capture4.PNG)
+![Capture 5](https://raw.githubusercontent.com/rootbsd/binaryninja_plugins/master/images/Capture5.PNG)
+![Capture 6](https://raw.githubusercontent.com/rootbsd/binaryninja_plugins/master/images/Capture6.PNG)
+![Capture 7](https://raw.githubusercontent.com/rootbsd/binaryninja_plugins/master/images/Capture7.PNG)
 
