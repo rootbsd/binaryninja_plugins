@@ -29,6 +29,7 @@ The best way to have all the dependencies is to use pip on a standalone python 2
 TODO:
   * do not use pefile but only Binary Ninja API
   * do not create a temporary file
+  * clean the code (specialy the GUI)
 
 Few screenshots:
 ![Capture 1](https://raw.githubusercontent.com/rootbsd/binaryninja_plugins/master/images/Capture1.PNG)
