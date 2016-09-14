@@ -24,6 +24,7 @@ class ShowData(QtGui.QTabWidget):
     self.yaraPath = QtGui.QLineEdit()
     self.yaraPath.setText(yara_path)
     self.yaraEdit = QtGui.QTextEdit()
+    self.yaraEdit.setLineWrapMode(QtGui.QTextEdit.NoWrap)
     self.initUI()
     
   def vt(self):
@@ -57,7 +58,10 @@ class ShowData(QtGui.QTabWidget):
         else:
           s=""
           for j in matches:
-            s=s+j.namespace+" \t "+j.rule+"\n"
+            t = ""
+            for k in j.strings:
+              t=t+str(hex(self.pescanner.bv.start+k[0])).replace("L","")+" "
+            s=s+j.namespace+" \t "+j.rule+" "+t+"\n"
           self.yaraEdit.setText(s)
       except Exception as e:
         print(e)
