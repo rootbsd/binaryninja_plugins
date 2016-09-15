@@ -5,6 +5,7 @@ This repository contains Binary Ninja plugins. Binary Ninja is a reverse enginee
  * [MSDN documentation](https://github.com/rootbsd/binaryninja_plugins#msdn-documentation)
  * [MSDN documentation (without QT)](https://github.com/rootbsd/binaryninja_plugins#msdn-documentation-without-qt)
  * [Colorize API usage](https://github.com/rootbsd/binaryninja_plugins#colorize-api-usage)
+ * [Graph SVG export](https://github.com/rootbsd/binaryninja_plugins#graph-svg-export)
 
 ## PE Scanner
 This plugin shows an additional QT GUI with additional information concerning the analysed PE.
@@ -71,8 +72,12 @@ This plugin colorize the instruction block. The color is defined by the kind of 
   * Memory: Orange
 
 TODO:
-  * path the export_svg.py script to support colors
   * update the API lists
 
 Screenshot:
 ![Capture 9](https://raw.githubusercontent.com/rootbsd/binaryninja_plugins/master/images/Capture9.PNG)
+
+## Graph SVG export
+**This plugin only works in the dev version of Binary Ninja. The block colorization is not supported in the stable.**
+
+This plugin is a patched version of the export_svg.py plugin with the background color support.
