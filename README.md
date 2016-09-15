@@ -4,6 +4,7 @@ This repository contains Binary Ninja plugins. Binary Ninja is a reverse enginee
  * [PE Scanner](https://github.com/rootbsd/binaryninja_plugins#pe-scanner)
  * [MSDN documentation](https://github.com/rootbsd/binaryninja_plugins#msdn-documentation)
  * [MSDN documentation (without QT)](https://github.com/rootbsd/binaryninja_plugins#msdn-documentation-without-qt)
+ * [Colorize API usage](https://github.com/rootbsd/binaryninja_plugins#colorize-api-usage]
 
 ## PE Scanner
 This plugin shows an additional QT GUI with additional information concerning the analysed PE.
