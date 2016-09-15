@@ -56,3 +56,21 @@ Screenshot:
 
 ## MSDN documentation without QT
 This plugin is the same than the previous one but without QT. This version opens the web page in the default browser.
+
+## Colorize API usage
+**This plugin only works in the dev version of Binary Ninja. The block colorization is not supported in the stable**
+This plugin colorize the instruction block. The color is defined by the kind of API
+  * Registry: Blue
+  * Network: Green
+  * File: Cyan
+  * Execution: Red
+  * Crypto: Magenta
+  * System information: Yellow
+  * Memory: Orange
+
+TODO:
+  * path the export_svg.py script to support colors
+  * update the API lists
+
+Screenshot:
+![Capture 9](https://raw.githubusercontent.com/rootbsd/binaryninja_plugins/master/images/Capture9.PNG)
